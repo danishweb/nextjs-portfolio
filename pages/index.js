@@ -8,7 +8,6 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
   useColorModeValue,
 } from "@chakra-ui/react";
 import React from "react";
@@ -18,7 +17,6 @@ import NextLink from "next/link";
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from "react-icons/io5";
-import { GridItem } from "../components/grid-item";
 
 const Pages = () => {
   return (

@@ -1,7 +1,6 @@
-import { Box, Container, Heading, SimpleGrid } from "@chakra-ui/react";
+import { Box, Container, Heading } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
-import { GridItem } from "../components/grid-item";
 const Posts = () => (
   <Layout title="Posts">
     <Container>
